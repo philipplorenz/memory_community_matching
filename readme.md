@@ -1,7 +1,7 @@
 # Matching for Temporal Community Detection with Memory
 
 
-This package implements a matching procedure for temporal community detection on networks. The details are in our paper: This is part of a modular approach to temporal community detection: for a complete analysis pipeline, other tools are needed.
+This package implements a matching procedure for temporal community detection on networks. The details are in our paper: [https://doi.org/10.1007/978-3-319-72150-7_33] This is part of a modular approach to temporal community detection: for a complete analysis pipeline, other tools are needed.
 
 
 ## Dependencies
@@ -50,9 +50,14 @@ timeseries = [
 temporal_communities = memory_community_matching.matching(timeseries, 2)
 print(temporal_communties)
 # [{(0, 'violet'), (1, 'violet'), (2, 'violet')}, {(0, 'orange'), (2, 'orange')}, {(2, 'green'), (1, 'green'), (0, 'green')}]
+```
 
 ## Authors
 
-This method was developed and implemented by Philipp Lorenz-Spreen, Frederik Wolf, Jonas Braun and Philipp Hövel at TU Berlin.
-
 If you reference this method, please cite 
+
+```
+Lorenz P., Wolf F., Braun J., Djurdjevac Conrad N., Hövel P. (2018) Capturing the Dynamics of Hashtag-Communities. In: Cherifi C., Cherifi H., Karsai M., Musolesi M. (eds) Complex Networks & Their Applications VI. COMPLEX NETWORKS 2017. Studies in Computational Intelligence, vol 689. Springer, Cham
+```
+
+[https://doi.org/10.1007/978-3-319-72150-7_33]
