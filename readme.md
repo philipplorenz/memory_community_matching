@@ -1,7 +1,7 @@
 # Matching for Temporal Community Detection with Memory
 
 
-This package implements a matching procedure for temporal community detection on networks. The details are in our paper: [https://doi.org/10.1007/978-3-319-72150-7_33] This is part of a modular approach to temporal community detection: for a complete analysis pipeline, other tools are needed.
+This package implements a matching procedure for temporal community detection on networks. The details are in our paper: [https://doi.org/10.1007/978-3-319-72150-7_33] This is part of a modular approach to temporal community detection: for a complete analysis pipeline, additional tools are needed.
 
 
 ## Dependencies
@@ -56,8 +56,8 @@ print(temporal_communties)
 
 If you reference this method, please cite 
 
-```
+
 Lorenz P., Wolf F., Braun J., Djurdjevac Conrad N., Hövel P. (2018) Capturing the Dynamics of Hashtag-Communities. In: Cherifi C., Cherifi H., Karsai M., Musolesi M. (eds) Complex Networks & Their Applications VI. COMPLEX NETWORKS 2017. Studies in Computational Intelligence, vol 689. Springer, Cham
-```
+
 
 [https://doi.org/10.1007/978-3-319-72150-7_33]
